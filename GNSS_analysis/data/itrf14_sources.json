@@ -1,0 +1,21 @@
+{
+  "download_date": "2026-10-21",
+  "frame": "ITRF2014 global frame",
+  "sources": [
+    {
+      "file": "ahbgps_v6pt4_2D_29-Nov-2025_itrf14.dat",
+      "git_blob_sha1": "93e4884510433f9f7f926afe82075748b46ffe9c",
+      "records": 5384,
+      "url": "https://github.com/earjcr1/AHB_GPS/blob/main/ahbgps_v6pt4/ahbgps_v6pt4_2D_29-Nov-2025_itrf14.dat"
+    },
+    {
+      "file": "ahbgps_v6pt4_3D_29-Nov-2025_itrf14.dat",
+      "git_blob_sha1": "65183a4e4924e2e6941f1349aea248413934fedb",
+      "records": 6668,
+      "url": "https://github.com/earjcr1/AHB_GPS/blob/main/ahbgps_v6pt4/ahbgps_v6pt4_3D_29-Nov-2025_itrf14.dat"
+    }
+  ],
+  "same_selected_site_coordinates_as_eurasia_fixed": true,
+  "selected_count": 2571,
+  "header_note": "Original files retain veast_eu/vnorth_eu headers; reference frame follows the _itrf14 filename."
+}

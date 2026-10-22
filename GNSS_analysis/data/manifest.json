@@ -1,0 +1,56 @@
+{
+  "download_date": "2026-10-21",
+  "repository_commit": "6d34275ba531c4af8cf8e50e631fcb13a693285c",
+  "version": "v6.4 (used in Elliott et al. 2026)",
+  "frame": "ITRF2014 Eurasia-fixed",
+  "columns_numeric_files": [
+    "lon",
+    "lat",
+    "veast_eu",
+    "vnorth_eu",
+    "seast",
+    "snorth"
+  ],
+  "coordinate_units": "degree",
+  "velocity_and_sigma_units": "mm/yr",
+  "source_files": [
+    {
+      "file": "ahbgps_v6pt4_2D_29-Nov-2025_eu.dat",
+      "git_blob_sha1": "702b8a8cb2170120c09f7114c66f916fa9ab3f5f",
+      "records": 5384,
+      "url": "https://github.com/earjcr1/AHB_GPS/blob/main/ahbgps_v6pt4/ahbgps_v6pt4_2D_29-Nov-2025_eu.dat"
+    },
+    {
+      "file": "ahbgps_v6pt4_3D_29-Nov-2025_eu.dat",
+      "git_blob_sha1": "25e44224616441d9db3110b9c3c5c90f9ba172a9",
+      "records": 6668,
+      "url": "https://github.com/earjcr1/AHB_GPS/blob/main/ahbgps_v6pt4/ahbgps_v6pt4_3D_29-Nov-2025_eu.dat"
+    }
+  ],
+  "original_type_counts": {
+    "GNSS": 12044,
+    "VLBI": 3,
+    "SLR": 5
+  },
+  "selection": "GNSS only; 2D plus horizontal components of 3D; no additional uncertainty cutoff",
+  "study_bounds_w_e_s_n": [
+    70,
+    110,
+    25,
+    42
+  ],
+  "buffer_bounds_w_e_s_n": [
+    67,
+    113,
+    22,
+    45
+  ],
+  "bounds_note": "Provisional rectangular extents, not a Tibetan Plateau boundary polygon",
+  "counts": {
+    "ahb_horizontal_gnss_eu": 12044,
+    "tibet_study_gnss_eu": 2571,
+    "tibet_buffer_gnss_eu": 3600
+  },
+  "duplicate_coordinate_count": 0,
+  "processing_status": "Data preparation only; no velocity interpolation or strain calculation performed"
+}

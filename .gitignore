@@ -1,0 +1,14 @@
+# Processing products; retain source code and input data.
+/GNSS_analysis/output/
+/GNSS_analysis/archive/
+/GNSS_analysis/.cache/
+/GNSS_analysis/.python_packages/
+/GNSS_analysis/data/prepared/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+gmt.history
+gmt.conf
+.venv/
+venv/
