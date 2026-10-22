@@ -80,4 +80,4 @@ run2的 `--spacing` 控制分块，run3的 `--spacing` 控制输出网格；`--r
 
 完成正式流程后，可运行 `GNSS_analysis/checks/` 下的三个检查脚本。数据来源和应变率定义见 [GNSS_analysis/README.md](GNSS_analysis/README.md)，参考材料的归属说明见 [SOURCES.md](SOURCES.md)。
 
-输出、缓存和本地安装依赖已由 `.gitignore` 排除；原始输入数据会随仓库保留。这里没有配置Git远程地址，也没有执行上传。
+输出、缓存和本地安装依赖已由 `.gitignore` 排除；原始输入数据随仓库保留，运行结果在本地生成。
