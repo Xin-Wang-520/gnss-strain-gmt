@@ -1,0 +1,111 @@
+{
+  "frame": "ITRF2014 Eurasia-fixed",
+  "data_version": "AHB v6.4",
+  "study_region_w_e_s_n": [
+    70,
+    110,
+    25,
+    42
+  ],
+  "input_region_w_e_s_n": [
+    67,
+    113,
+    22,
+    45
+  ],
+  "blockmedian_spacing": "30m",
+  "retained_modes_percent": 25,
+  "actual_modes_used": 842,
+  "total_modes": 3370,
+  "input_original_station_count": 3600,
+  "block_representative_count": 1685,
+  "output_spacing": "20m",
+  "output_grid_shape_lat_lon": [
+    51,
+    120
+  ],
+  "strain_method": "Xu GMT directional gradients and principal strain rates",
+  "strain_units": "nstrain/yr = 1e-9 / yr",
+  "earth_radius_km_for_distance_scale": 6378,
+  "run5_display_interpolation": {
+    "display_only": true,
+    "method": "bilinear",
+    "factor": 10
+  },
+  "figures": [
+    {
+      "name": "run1_gnss",
+      "generated_by": "run1_plot_gnss.py",
+      "files": {
+        "png": {
+          "file": "run1_gnss.png",
+          "sha256": "4db462724f65cb03d67a09cd62f35f674d91bf2a30372dd266a29c7e9d79d8e2"
+        },
+        "pdf": {
+          "file": "run1_gnss.pdf",
+          "sha256": "94255a26d0c0616a8f0ad51b45fc7e429e811165ec389d7596af0b48645de05d"
+        }
+      }
+    },
+    {
+      "name": "run3_velocity_fit_eu",
+      "generated_by": "run3_gpsgridder_eu.py",
+      "files": {
+        "png": {
+          "file": "run3_velocity_fit_eu.png",
+          "sha256": "b61efa7f2c09b71246544c18e17e077ca4291f39082c40f55e0627759f98ce82"
+        },
+        "pdf": {
+          "file": "run3_velocity_fit_eu.pdf",
+          "sha256": "da761f20e1e447e966970e00c9dbeea58997da3ce4408547f41140a1a92f20f8"
+        }
+      }
+    },
+    {
+      "name": "run4_strain_eu",
+      "generated_by": "run4_calculate_strain_eu.py",
+      "files": {
+        "png": {
+          "file": "run4_strain_eu.png",
+          "sha256": "94f9017eda4cc2d3c983d142217438d58c4af84c29d359876e53f34e7aad0a93"
+        },
+        "pdf": {
+          "file": "run4_strain_eu.pdf",
+          "sha256": "7fa1de07685fa8c29ca5dedccd04e4e758d8bffcdb766070f9e1c085e6d463cc"
+        }
+      }
+    },
+    {
+      "name": "run4_shear_contributions_eu",
+      "generated_by": "run4_calculate_strain_eu.py",
+      "files": {
+        "png": {
+          "file": "run4_shear_contributions_eu.png",
+          "sha256": "be84805ceff1863bd44993d5d43189b3b27ba7db8165fb38f4ebe8c21dd65346"
+        },
+        "pdf": {
+          "file": "run4_shear_contributions_eu.pdf",
+          "sha256": "1ca3ac449e979928f77dc78eff7a6667681fd20685682f19941ff6598e189f98"
+        }
+      }
+    },
+    {
+      "name": "run5_strain_display_bilinear",
+      "generated_by": "run5_plot_strain_eu.py",
+      "files": {
+        "png": {
+          "file": "run5_strain_display_bilinear.png",
+          "sha256": "6a7f74a9695cc239bd1266ff5de30d46c20883067bb75d3b7faea9c2c3734c3a"
+        },
+        "pdf": {
+          "file": "run5_strain_display_bilinear.pdf",
+          "sha256": "efe524554d8dcd999bcabfbd00fc941fd1a5c1eaf1ba4438ee64b136344e5eb5"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Velocity residuals are in-sample fits at block representatives, not independent validation.",
+    "Run5 interpolates display colors only; native grid and physical resolution remain unchanged."
+  ]
+}

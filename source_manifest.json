@@ -5,7 +5,12 @@
     "cli_entry_points_checked": 9,
     "buffer_gnss_station_count": 3600,
     "imports_resolved_inside_package": true,
-    "numerical_pipeline_reexecuted": false
+    "numerical_pipeline_reexecuted": false,
+    "example_figure_sets": 5,
+    "example_formats": [
+      "PNG",
+      "PDF"
+    ]
   },
   "files": {
     ".gitignore": "1fa195daf72fbb1138773e0944ca9991f0a5f52ec8d50019cca1dbdba5b55989",
@@ -26,8 +31,20 @@
     "GNSS_analysis/gnss_processing.py": "94c30d02989b1a0f0e6a84512f989c9fc61ad3009f7cbbf3908e1e6d9922850b",
     "GNSS_analysis/parameter_tests.py": "7e10bd90a8d3e19f2d0abb85b72f3eca7d7efa6ae2cb132966ada76d0c236de9",
     "GNSS_analysis/requirements_plot.txt": "ab57ce7debf180f036ec16efef78c346ea683e8675222c5104def06fe6222f6d",
-    "README.md": "f33fb8c82bfb94cf892c34ad130e6a60c5e6136a34acbf3230628dd70050d59e",
+    "README.md": "9b6933f928c1869bff7118be5c163d88db04f043874dda056a67c8e96bc8d9aa",
     "SOURCES.md": "6fa48aec5425fe135d8c2a4010909313c4d41f70b7276c18f5e2a7c4ff530d29",
+    "examples/README.md": "6dc2af8a511de2a1c28ec16d763b5be74d3d59dce9c4f876165456d4077756c1",
+    "examples/example_parameters.json": "6fe280adcc43a9666b225f47ac8e0a5fd0a2f5bb4a6c031285d3d901970feadf",
+    "examples/run1_gnss.pdf": "94255a26d0c0616a8f0ad51b45fc7e429e811165ec389d7596af0b48645de05d",
+    "examples/run1_gnss.png": "4db462724f65cb03d67a09cd62f35f674d91bf2a30372dd266a29c7e9d79d8e2",
+    "examples/run3_velocity_fit_eu.pdf": "da761f20e1e447e966970e00c9dbeea58997da3ce4408547f41140a1a92f20f8",
+    "examples/run3_velocity_fit_eu.png": "b61efa7f2c09b71246544c18e17e077ca4291f39082c40f55e0627759f98ce82",
+    "examples/run4_shear_contributions_eu.pdf": "1ca3ac449e979928f77dc78eff7a6667681fd20685682f19941ff6598e189f98",
+    "examples/run4_shear_contributions_eu.png": "be84805ceff1863bd44993d5d43189b3b27ba7db8165fb38f4ebe8c21dd65346",
+    "examples/run4_strain_eu.pdf": "7fa1de07685fa8c29ca5dedccd04e4e758d8bffcdb766070f9e1c085e6d463cc",
+    "examples/run4_strain_eu.png": "94f9017eda4cc2d3c983d142217438d58c4af84c29d359876e53f34e7aad0a93",
+    "examples/run5_strain_display_bilinear.pdf": "efe524554d8dcd999bcabfbd00fc941fd1a5c1eaf1ba4438ee64b136344e5eb5",
+    "examples/run5_strain_display_bilinear.png": "6a7f74a9695cc239bd1266ff5de30d46c20883067bb75d3b7faea9c2c3734c3a",
     "requirements.txt": "ab57ce7debf180f036ec16efef78c346ea683e8675222c5104def06fe6222f6d",
     "run1_plot_gnss.py": "5cb6b68dc1bdd3c923fe0fbdcb0a94ad0f716fc49d3e1cbaf529ef20125a153a",
     "run1_plot_gnss_itrf14.py": "101d3ecf9066674da2438660fec4efc6ba5e8ac1ea4889c4df1029c13a1be4af",

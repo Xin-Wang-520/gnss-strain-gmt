@@ -4,6 +4,14 @@
 
 当前默认参数为欧亚固定参考系、30′分块、25%保留模态、20′输出网格；研究区70–110°E、25–42°N，输入另含67–113°E、22–45°N缓冲区。
 
+## 示例结果
+
+下面是正式流程的run5显示插值图，原始应变率网格间隔仍为20′。显示插值只改善颜色过渡，不增加实际空间分辨率。
+
+![Run5 应变率显示示例](examples/run5_strain_display_bilinear.png)
+
+[打开PDF](examples/run5_strain_display_bilinear.pdf) · [查看全部示例：GNSS、速度场、应变率与剪切贡献](examples/README.md)
+
 ## 环境
 
 需要 Python、NumPy、Matplotlib、packaging，以及可从命令行调用的 GMT。处理方法在 GMT 6.4 上验证过；Python 入口已在本机 Python 3.9 和3.13环境检查。独立验证原始 Xu 脚本时还需要 csh。
@@ -80,4 +88,4 @@ run2的 `--spacing` 控制分块，run3的 `--spacing` 控制输出网格；`--r
 
 完成正式流程后，可运行 `GNSS_analysis/checks/` 下的三个检查脚本。数据来源和应变率定义见 [GNSS_analysis/README.md](GNSS_analysis/README.md)，参考材料的归属说明见 [SOURCES.md](SOURCES.md)。
 
-输出、缓存和本地安装依赖已由 `.gitignore` 排除；原始输入数据随仓库保留，运行结果在本地生成。
+完整输出、缓存和本地安装依赖已由 `.gitignore` 排除；原始输入数据及 `examples/` 中精选的示例图随仓库保留，其余运行结果在本地生成。
