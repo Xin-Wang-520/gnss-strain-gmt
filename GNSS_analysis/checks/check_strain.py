@@ -1,3 +1,12 @@
+# =============================================================================
+# Author       : Xin Wang
+# Affiliation  : University of Science and Technology of China (USTC)
+# Location     : Hefei, China
+# Email        : xinw11@mail.ustc.edu.cn
+# GitHub       : https://github.com/Xin-Wang-520
+# Uploaded     : 2026-10-22
+# =============================================================================
+
 """Verify Xu source commands, tensor convention and analytic derivatives."""
 from pathlib import Path
 import sys, tempfile, subprocess, json, os, shutil
