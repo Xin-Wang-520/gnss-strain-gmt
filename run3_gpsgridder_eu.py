@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# =============================================================================
+# Author       : Xin Wang
+# Affiliation  : University of Science and Technology of China (USTC)
+# Location     : Hefei, China
+# Email        : xinw11@mail.ustc.edu.cn
+# GitHub       : https://github.com/Xin-Wang-520
+# Uploaded     : 2026-10-22
+# =============================================================================
+
 """Run 3: gpsgridder on the blockmedian representatives produced by Run 2.
 
 python3 run3_gpsgridder_eu.py -v
